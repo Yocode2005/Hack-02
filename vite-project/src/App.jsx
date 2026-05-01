@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import Login from './pages/Login';
 import SOSPage from './pages/SOSPage';
 import ResponderDashboard from './pages/ResponderDashboard'; // import pages form responderdashboard
-import HospitalDashboard from './pages/HospitalDashboard';
+import HospitalDashboard from './pages/HospitalDashboard'; // import pages from hospitaldashboard
 import AdminDashboard from './pages/AdminDashboard';
 import PrivateRoute from './components/common/PrivateRoute';
 function App() {
