@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom'; // use react-router dom for using routing
 import { useSelector } from 'react-redux';
 import Login from './pages/Login';
 import SOSPage from './pages/SOSPage';
