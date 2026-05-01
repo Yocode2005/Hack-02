@@ -6,7 +6,7 @@ import SOSPage from './pages/SOSPage';
 import ResponderDashboard from './pages/ResponderDashboard'; // import pages form responderdashboard
 import HospitalDashboard from './pages/HospitalDashboard'; // import pages from hospitaldashboard
 import AdminDashboard from './pages/AdminDashboard'; // for admindashboard
-import PrivateRoute from './components/common/PrivateRoute';
+import PrivateRoute from './components/common/PrivateRoute'; // import components
 function App() {
  const { user } = useSelector((state) => state.auth);
  return (
