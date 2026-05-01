@@ -11,7 +11,7 @@ function App() {
  const { user } = useSelector((state) => state.auth);
  return (
  <Routes>
- <Route path="/login" element={<Login />} />
+ <Route path="/login" element={<Login />} /> // login route
  <Route path="/" element={<PrivateRoute />}>
  <Route index element={
  user?.role === 'responder' ? <ResponderDashboard /> :
