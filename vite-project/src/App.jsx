@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Login from './pages/Login';
 import SOSPage from './pages/SOSPage';
-import ResponderDashboard from './pages/ResponderDashboard';
+import ResponderDashboard from './pages/ResponderDashboard'; // import pages form responderdashboard
 import HospitalDashboard from './pages/HospitalDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import PrivateRoute from './components/common/PrivateRoute';
