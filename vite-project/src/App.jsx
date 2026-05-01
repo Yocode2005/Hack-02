@@ -16,7 +16,7 @@ function App() {
  <Route index element={
  user?.role === 'responder' ? <ResponderDashboard /> :
  user?.role === 'hospital' ? <HospitalDashboard /> :
- user?.role === 'admin' ? <AdminDashboard /> :
+ user?.role === 'admin' ? <AdminDashboard /> : // set path for adminDashboard
  <SOSPage />
  } />
  <Route path="sos" element={<SOSPage />} />
