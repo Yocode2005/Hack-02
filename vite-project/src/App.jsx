@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom'; // use react-router dom for using routing
 import { useSelector } from 'react-redux'; // use react-redux
-import Login from './pages/Login';
+import Login from './pages/Login'; // complete login page
 import SOSPage from './pages/SOSPage';
 import ResponderDashboard from './pages/ResponderDashboard'; // import pages form responderdashboard
 import HospitalDashboard from './pages/HospitalDashboard'; // import pages from hospitaldashboard
