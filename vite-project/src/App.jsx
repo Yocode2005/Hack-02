@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom'; // use react-router dom for using routing
-import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux'; // use react-redux
 import Login from './pages/Login';
 import SOSPage from './pages/SOSPage';
 import ResponderDashboard from './pages/ResponderDashboard'; // import pages form responderdashboard
