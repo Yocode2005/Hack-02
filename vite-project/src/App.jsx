@@ -24,7 +24,7 @@ function App() {
  <Route path="hospital" element={<HospitalDashboard />} />
  <Route path="admin" element={<AdminDashboard />} /> for admin dashboard
  </Route>
- <Route path="*" element={<Navigate to="/" />} />
+ <Route path="*" element={<Navigate to="/" />} /> // to navigate
  </Routes>
  );
 }
