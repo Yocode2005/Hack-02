@@ -22,7 +22,7 @@ function App() {
  <Route path="sos" element={<SOSPage />} /> // route for sospage
  <Route path="responder" element={<ResponderDashboard />} /> // route for responder dashboard
  <Route path="hospital" element={<HospitalDashboard />} />
- <Route path="admin" element={<AdminDashboard />} />
+ <Route path="admin" element={<AdminDashboard />} /> for admin dashboard
  </Route>
  <Route path="*" element={<Navigate to="/" />} />
  </Routes>
