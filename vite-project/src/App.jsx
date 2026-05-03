@@ -12,7 +12,7 @@ function App() {
  return (
  <Routes>
  <Route path="/login" element={<Login />} /> // login route
- <Route path="/" element={<PrivateRoute />}>
+ <Route path="/" element={<PrivateRoute />}> // privateRoute route
  <Route index element={
  user?.role === 'responder' ? <ResponderDashboard /> :
  user?.role === 'hospital' ? <HospitalDashboard /> :
