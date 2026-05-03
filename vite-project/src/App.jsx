@@ -19,7 +19,7 @@ function App() {
  user?.role === 'admin' ? <AdminDashboard /> : // set path for adminDashboard
  <SOSPage />
  } />
- <Route path="sos" element={<SOSPage />} />
+ <Route path="sos" element={<SOSPage />} /> // route for sospage
  <Route path="responder" element={<ResponderDashboard />} />
  <Route path="hospital" element={<HospitalDashboard />} />
  <Route path="admin" element={<AdminDashboard />} />
