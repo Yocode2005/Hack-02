@@ -20,7 +20,7 @@ function App() {
  <SOSPage />
  } />
  <Route path="sos" element={<SOSPage />} /> // route for sospage
- <Route path="responder" element={<ResponderDashboard />} />
+ <Route path="responder" element={<ResponderDashboard />} /> // route for responder dashboard
  <Route path="hospital" element={<HospitalDashboard />} />
  <Route path="admin" element={<AdminDashboard />} />
  </Route>
