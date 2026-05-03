@@ -15,7 +15,7 @@ function App() {
  <Route path="/" element={<PrivateRoute />}> // privateRoute route
  <Route index element={ // add one  more route
  user?.role === 'responder' ? <ResponderDashboard /> : // route for dashboard
- user?.role === 'hospital' ? <HospitalDashboard /> :
+ user?.role === 'hospital' ? <HospitalDashboard /> : // route for hospital dashboard
  user?.role === 'admin' ? <AdminDashboard /> : // set path for adminDashboard
  <SOSPage />
  } />
