@@ -1,6 +1,6 @@
 import React from 'react'; // import react
 import ReactDOM from 'react-dom/client'; // import react dom
-import { Provider } from 'react-redux';
+import { Provider } from 'react-redux'; // import the redux
 import { BrowserRouter } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import App from './App';
